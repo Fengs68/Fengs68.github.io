@@ -5,24 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
     <title>Document</title>
 </head>
 
-<body class="">
-    <header class="mdui-appbar mdui-appbar-fixed">
+<body>
+    <!-- 头部开始 -->
+    <header class="mdui-appbar mdui-appbar-fixed .mdui-appbar-scroll-hide">
         <div class=" mdui-toolbar mdui-color-blue mdui-text-color-white">
             <a href="" class="mdui-btn mdui-btn-icon">
                 <i class="material-icons mdui-icon">
                     menu
                 </i>
             </a>
-            <a href="" class=" mdui-typo-title">首页</a>
+            <a href="" class="mdui-typo-title">首页</a>
         </div>
     </header>
-    <div class=" mdui-container-fluid mdui-appbar-with-toolbar">
-        <h1>首页</h1>
+    <!-- 头部结束 -->
+    <div class="div mdui-color-pink mdui-appbar-with-toolbar">
+
     </div>
+    <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    <script>
+        var $ = mdui.$;
+        var a=''
+        $.ajax({
+            method: 'GEt',
+            url: 'https://console-mock.apipost.cn/mock/08d495f7-3a37-446a-9b2f-3c52fb1bffe1/list.php?apipost_id=f84176',
+            success: function (data) {
+                $('.div').append("<h1>"+data+"</h1>")
+            }
+        })
+
+    </script>
 </body>
 
 </html>
