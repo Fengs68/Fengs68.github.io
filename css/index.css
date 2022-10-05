@@ -105,14 +105,13 @@ footer .container-md p {
   color: #ffffff99;
 }
 footer .container-md .row {
-  position: relative;
-  top: 15%;
   padding-right: 0;
 }
 footer .container-md .row ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 footer .container-md .row ul li {
   text-align: center;
