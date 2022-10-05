@@ -3,3 +3,120 @@
   padding: 0;
   box-sizing: border-box;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+  z-index: 5;
+  transition: all 0.5s;
+  height: 56px;
+  padding-top: 16px;
+}
+.navbar .nav-link {
+  transition: all 0.3s;
+}
+.carousel-caption {
+  z-index: 1;
+}
+.wrapper .container .source span {
+  font-size: 5vmin;
+  text-align: center;
+  font-weight: 300;
+}
+.wrapper .container .source span span {
+  font-size: 5vmin;
+  text-align: center;
+}
+.wrapper .container .source p {
+  font-size: 2vmin;
+  text-align: center;
+  color: gray;
+}
+.wrapper .container .source .source-container div h4 {
+  font-size: 8vmin;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+.wrapper .container .source .source-container .source-item {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 0.5vmin;
+}
+.wrapper .container .source .source-container div p {
+  color: white;
+  margin: 3vmin 0 0 0;
+}
+.wrapper .container .source .source-container > :first-child > div {
+  background-color: #70c3ff;
+}
+.wrapper .container .source .source-container > :nth-child(2) > div {
+  background-color: #fd6a7f;
+}
+.wrapper .container .source .source-container > :nth-child(3) > div {
+  background-color: #7f8ea0;
+}
+.wrapper .container .source .source-container > :last-child > div {
+  background-color: #89d04f;
+}
+.wrapper .container .source button {
+  position: relative;
+  left: 50%;
+  width: 100px;
+  height: 45px;
+  transform: translateX(-50%);
+}
+@media (max-width: 992px) {
+  .wrapper .carousel {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper .carousel {
+    height: 250px;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper .carousel {
+    height: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .wrapper .carousel {
+    height: 500px;
+  }
+}
+footer .container-md {
+  border-top: 1px solid #343a40;
+}
+footer .container-md h2 {
+  font-size: 6vmin;
+  font-family: "MiSans";
+}
+footer .container-md p {
+  font-size: 3vmin;
+  color: #ffffff99;
+}
+footer .container-md .row {
+  position: relative;
+  top: 15%;
+  padding-right: 0;
+}
+footer .container-md .row ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container-md .row ul li {
+  text-align: center;
+}
+footer .container-md .row ul li a {
+  color: gray;
+}

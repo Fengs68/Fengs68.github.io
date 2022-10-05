@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14343548",
+      "name": "chrome",
+      "font_class": "chrome",
+      "unicode": "e511",
+      "unicode_decimal": 58641
+    },
+    {
+      "icon_id": "14343724",
+      "name": "linux",
+      "font_class": "linux",
+      "unicode": "e54d",
+      "unicode_decimal": 58701
+    },
+    {
+      "icon_id": "14343729",
+      "name": "node-js",
+      "font_class": "node-js",
+      "unicode": "e54f",
+      "unicode_decimal": 58703
+    },
+    {
+      "icon_id": "14343765",
+      "name": "python",
+      "font_class": "python",
+      "unicode": "e55b",
+      "unicode_decimal": 58715
+    }
+  ]
+}

@@ -1,1 +1,153 @@
+// out: "../css/"
 @import './base.less';
+
+// 头部
+.navbar {
+    position: fixed;
+    z-index: 5;
+    transition: all .5s;
+    height: 56px;
+    padding-top: 16px;
+
+    // background-color: transparent !important;
+    .nav-link {
+        transition: all .3s;
+    }
+}
+
+.carousel-caption{
+    z-index: 1;
+}
+//版心
+.wrapper {
+    .container {
+        .source {
+            span {
+                font-size: 5vmin;
+                text-align: center;
+                font-weight: 300;
+            }
+
+            span span {
+                font-size: 5vmin;
+                text-align: center;
+            }
+
+            p {
+                font-size: 2vmin;
+                text-align: center;
+                color: gray;
+            }
+
+            .source-container {
+                div h4 {
+                    font-size: 8vmin;
+                    text-align: center;
+                    color: white;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .source-item {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    border-radius: .5vmin;
+                    // transition: all .2s;
+                }
+
+                div p {
+                    color: white;
+                    margin: 3vmin 0 0 0;
+                }
+
+                &>:first-child>div {
+                    background-color: #70c3ff;
+                }
+
+                &>:nth-child(2)>div {
+                    background-color: #fd6a7f;
+                }
+
+                &>:nth-child(3)>div {
+                    background-color: #7f8ea0;
+                }
+
+                &>:last-child>div {
+                    background-color: #89d04f;
+                }
+            }
+
+            button {
+                position: relative;
+                left: 50%;
+                width: 100px;
+                height: 45px;
+                transform: translateX(-50%);
+            }
+        }
+    }
+
+    @media (max-width:992px) {
+        .carousel {
+            height: 400px;
+        }
+    }
+
+    @media (max-width:768px) {
+        .carousel {
+            height: 250px;
+        }
+    }
+
+    @media (max-width:576px) {
+        .carousel {
+            height: 200px;
+        }
+    }
+
+    @media (min-width:992px) {
+        .carousel {
+            height: 500px;
+        }
+    }
+
+}
+
+footer {
+    .container-md {
+        // height: 300px;
+        border-top: 1px solid #343a40;
+
+        h2 {
+            font-size: 6vmin;
+            font-family: "MiSans";
+        }
+
+        p {
+            font-size: 3vmin;
+            color: #ffffff99;
+        }
+
+        .row {
+            position: relative;
+            top: 15%;
+            padding-right: 0;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li{
+                    text-align: center;
+                    a{
+                        color: gray;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
