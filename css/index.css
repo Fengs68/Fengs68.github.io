@@ -14,7 +14,7 @@ a {
   z-index: 5;
   transition: all 0.5s;
   height: 56px;
-  padding-top: 16px;
+  padding-top: 24px;
 }
 .navbar .nav-link {
   transition: all 0.3s;
