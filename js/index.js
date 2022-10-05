@@ -4,14 +4,14 @@ $(this).scroll(() => {
 		$(".navbar")
 			.removeClass("bg-dark")
 			.css("padding-top", "16px")
-			.css("padding-bottom","0")
+			.css("padding-bottom", "0")
 			.find(".nav-link")
 			.removeClass("text-white")
 	} else {
 		$(".navbar")
 			.addClass("bg-dark")
 			.css("padding-top", "8px")
-			.css("padding-bottom","8px")
+			.css("padding-bottom", "8px")
 			.find(".nav-link")
 			.addClass("text-white")
 	}
@@ -29,9 +29,16 @@ $(".source-item")
 			.animate({
 				top: "0px"
 			}, 250)
-			
+
 	})
 
 $(".carousel").carousel({
 	interval: 2000
 })
+// $(".navbar-toggler").click(function() {
+// 	if($(this).hasClass("collapsed")!=true){
+// 		$(".collapse").addClass("bg-dark")
+// 	}else{
+// 		$(".collapse").removeClass("bg-dark")
+// 	}
+// })

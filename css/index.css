@@ -20,6 +20,16 @@ a {
 .navbar .nav-link {
   transition: all 0.3s;
 }
+@media (max-width: 992px) {
+  .navbar .navbar-nav {
+    background-color: #343a40 !important;
+  }
+}
+@media (min-width: 992px) {
+  .navbar .navbar-nav {
+    background-color: transparent !important;
+  }
+}
 .carousel-caption {
   z-index: 1;
 }
