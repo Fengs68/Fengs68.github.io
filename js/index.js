@@ -4,12 +4,14 @@ $(this).scroll(() => {
 		$(".navbar")
 			.removeClass("bg-dark")
 			.css("padding-top", "16px")
+			.css("padding-bottom","0")
 			.find(".nav-link")
 			.removeClass("text-white")
 	} else {
 		$(".navbar")
 			.addClass("bg-dark")
-			.css("padding-top", "0px")
+			.css("padding-top", "8px")
+			.css("padding-bottom","8px")
 			.find(".nav-link")
 			.addClass("text-white")
 	}
