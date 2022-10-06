@@ -31,7 +31,7 @@ a {
   }
 }
 .carousel-caption {
-  z-index: 1;
+  z-index: 4;
 }
 .wrapper .container .source span {
   font-size: 5vmin;
