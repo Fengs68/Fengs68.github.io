@@ -35,10 +35,3 @@ $(".source-item")
 $(".carousel").carousel({
 	interval: 2000
 })
-// $(".navbar-toggler").click(function() {
-// 	if($(this).hasClass("collapsed")!=true){
-// 		$(".collapse").addClass("bg-dark")
-// 	}else{
-// 		$(".collapse").removeClass("bg-dark")
-// 	}
-// })
